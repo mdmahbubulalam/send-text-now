@@ -1,0 +1,49 @@
+.chat{
+    height: 670px;
+    background-color: rgb(234, 247, 247);
+    border-bottom-right-radius: 5px;
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+}
+
+.chat-header{
+    background-color: black;
+    padding: 15px;
+    border-top-right-radius: 5px;
+}
+
+.chat-body{
+    flex: 1;
+    padding: 30px 10px;
+    overflow-y: auto;
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.chat-footer{
+    /* display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 56px;
+    background-color: #f8f6f6; */
+}
+
+.sendIcon, .sentimentVerySatisfiedIcon {
+    color: rgb(1, 87, 94); 
+}
+
+.chatSubmitBtn{
+    border:0px;
+    background-color: rgb(234, 247, 247);
+}
+
+
+
+@media only screen and (max-width: 800px) {
+    .chat{
+        width: 100%;
+    }
+  }
+

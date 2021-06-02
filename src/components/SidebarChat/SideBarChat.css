@@ -1,0 +1,32 @@
+.sidebar-chat{
+    padding: 10px;
+    display: flex;
+    border-bottom: 1px solid gray;
+}
+
+.sidebar-chat:hover {
+    background-color: rgb(230, 252, 253);
+  }
+
+  .sidebar-chat.sidebar-chat-active,
+.sidebar-chat.sidebar-chat-active:hover {
+  background-color: rgb(230, 252, 253);
+}
+
+.sidebar-chat-info > h2 {
+    font-size: 13px;
+    margin-bottom: 4px;
+    color: black;
+  }
+
+.sidebar-chat-info{
+    margin-left: 15px;
+    font-size: 12px;
+    flex: 1;
+    color: gray;
+}
+
+.sidebar-chat-timestamp{
+    font-size: 12px;
+    color: #baadb4;
+}

@@ -1,0 +1,66 @@
+.sidebar{
+    height: 670px;
+    background-color: rgb(179, 243, 247);
+    border-bottom-left-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+    
+}
+
+.display-sidebar-chat{
+  flex: 1;
+  overflow-y: auto;
+}
+
+.profileImg{
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+}
+
+.sidebar-header{
+    background-color: blanchedalmond;
+    padding: 15px;
+    border-top-left-radius: 5px;
+}
+
+.sidebar-footer {
+    display: flex;
+    justify-content: space-around;
+    background-color: rgb(176, 197, 197);
+    height: 101px;
+    align-items: center;
+  }
+
+  .sidebar-footer .addCircleOutlineIcon{
+    height: 25px;
+    width: 25px;
+  }
+
+  .sidebar-footer .chatBubbleOutlineIcon{
+    height: 25px;
+    width: 25px;
+  }
+
+  .sidebar-footer .peopleOutlineIcon{
+    height: 25px;
+    width: 25px;
+  }
+
+  .sidebar-footer .personOutlineIcon{
+    height: 25px;
+    width: 25px;
+  }
+
+  .addCircleOutlineIcon:hover, .chatBubbleOutlineIcon:hover, .peopleOutlineIcon:hover, .personOutlineIcon:hover{
+      background-color: black;
+      border-radius: 3px;
+      color: whitesmoke;
+  }
+
+  @media only screen and (max-width: 800px) {
+    .sidebar{
+        width: 100%;
+    }
+  }
